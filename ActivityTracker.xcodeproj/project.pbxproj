@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		15A0C99D1F1F34AA006025B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0C99C1F1F34AA006025B1 /* main.m */; };
 		15A0C9A01F1F34AA006025B1 /* ATAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0C99F1F1F34AA006025B1 /* ATAAppDelegate.m */; };
-		15A0C9A31F1F34AA006025B1 /* ATAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0C9A21F1F34AA006025B1 /* ATAViewController.m */; };
 		15A0C9A61F1F34AA006025B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A0C9A41F1F34AA006025B1 /* Main.storyboard */; };
 		15A0C9A91F1F34AA006025B1 /* ActivityTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15A0C9A71F1F34AA006025B1 /* ActivityTracker.xcdatamodeld */; };
 		15A0C9AB1F1F34AA006025B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A0C9AA1F1F34AA006025B1 /* Assets.xcassets */; };
 		15A0C9AE1F1F34AA006025B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A0C9AC1F1F34AA006025B1 /* LaunchScreen.storyboard */; };
 		15A0C9B91F1F34AA006025B1 /* ActivityTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0C9B81F1F34AA006025B1 /* ActivityTrackerTests.m */; };
+		15A0C9C71F1F4466006025B1 /* ATAMainViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0C9C61F1F4466006025B1 /* ATAMainViewControllerTests.m */; };
+		15A0C9D51F1F6255006025B1 /* ATAActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0C9D01F1F6255006025B1 /* ATAActivity.m */; };
+		15A0C9D61F1F6255006025B1 /* ATAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0C9D11F1F6255006025B1 /* ATAMainViewController.m */; };
+		15A0C9E01F1F6664006025B1 /* ATAAddActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0C9DF1F1F6664006025B1 /* ATAAddActivityView.m */; };
+		15A0C9E21F1F667F006025B1 /* ATAAddActivityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A0C9E11F1F667F006025B1 /* ATAAddActivityView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +36,6 @@
 		15A0C99C1F1F34AA006025B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15A0C99E1F1F34AA006025B1 /* ATAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAAppDelegate.h; sourceTree = "<group>"; };
 		15A0C99F1F1F34AA006025B1 /* ATAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAAppDelegate.m; sourceTree = "<group>"; };
-		15A0C9A11F1F34AA006025B1 /* ATAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAViewController.h; sourceTree = "<group>"; };
-		15A0C9A21F1F34AA006025B1 /* ATAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAViewController.m; sourceTree = "<group>"; };
 		15A0C9A51F1F34AA006025B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15A0C9A81F1F34AA006025B1 /* ActivityTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ActivityTracker.xcdatamodel; sourceTree = "<group>"; };
 		15A0C9AA1F1F34AA006025B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 		15A0C9B41F1F34AA006025B1 /* ActivityTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A0C9B81F1F34AA006025B1 /* ActivityTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityTrackerTests.m; sourceTree = "<group>"; };
 		15A0C9BA1F1F34AA006025B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15A0C9C61F1F4466006025B1 /* ATAMainViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATAMainViewControllerTests.m; sourceTree = "<group>"; };
+		15A0C9CE1F1F6242006025B1 /* ATAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATAMainViewController.h; path = ViewControllers/ATAMainViewController.h; sourceTree = "<group>"; };
+		15A0C9CF1F1F6255006025B1 /* ATAActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATAActivity.h; path = Model/ATAActivity.h; sourceTree = "<group>"; };
+		15A0C9D01F1F6255006025B1 /* ATAActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATAActivity.m; path = Model/ATAActivity.m; sourceTree = "<group>"; };
+		15A0C9D11F1F6255006025B1 /* ATAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATAMainViewController.m; path = ViewControllers/ATAMainViewController.m; sourceTree = "<group>"; };
+		15A0C9DE1F1F6664006025B1 /* ATAAddActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATAAddActivityView.h; path = ViewControllers/ATAAddActivityView.h; sourceTree = "<group>"; };
+		15A0C9DF1F1F6664006025B1 /* ATAAddActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATAAddActivityView.m; path = ViewControllers/ATAAddActivityView.m; sourceTree = "<group>"; };
+		15A0C9E11F1F667F006025B1 /* ATAAddActivityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ATAAddActivityView.xib; path = ViewControllers/ATAAddActivityView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +95,13 @@
 			children = (
 				15A0C99E1F1F34AA006025B1 /* ATAAppDelegate.h */,
 				15A0C99F1F1F34AA006025B1 /* ATAAppDelegate.m */,
-				15A0C9A11F1F34AA006025B1 /* ATAViewController.h */,
-				15A0C9A21F1F34AA006025B1 /* ATAViewController.m */,
-				15A0C9A41F1F34AA006025B1 /* Main.storyboard */,
-				15A0C9AA1F1F34AA006025B1 /* Assets.xcassets */,
-				15A0C9AC1F1F34AA006025B1 /* LaunchScreen.storyboard */,
-				15A0C9AF1F1F34AA006025B1 /* Info.plist */,
 				15A0C9A71F1F34AA006025B1 /* ActivityTracker.xcdatamodeld */,
+				15A0C9AA1F1F34AA006025B1 /* Assets.xcassets */,
+				15A0C9D91F1F626C006025B1 /* Model */,
+				15A0C9DA1F1F627C006025B1 /* ViewControllers */,
+				15A0C9AF1F1F34AA006025B1 /* Info.plist */,
+				15A0C9AC1F1F34AA006025B1 /* LaunchScreen.storyboard */,
+				15A0C9A41F1F34AA006025B1 /* Main.storyboard */,
 				15A0C99B1F1F34AA006025B1 /* Supporting Files */,
 			);
 			path = ActivityTracker;
@@ -109,9 +119,39 @@
 			isa = PBXGroup;
 			children = (
 				15A0C9B81F1F34AA006025B1 /* ActivityTrackerTests.m */,
+				15A0C9C61F1F4466006025B1 /* ATAMainViewControllerTests.m */,
 				15A0C9BA1F1F34AA006025B1 /* Info.plist */,
 			);
 			path = ActivityTrackerTests;
+			sourceTree = "<group>";
+		};
+		15A0C9D91F1F626C006025B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15A0C9CF1F1F6255006025B1 /* ATAActivity.h */,
+				15A0C9D01F1F6255006025B1 /* ATAActivity.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		15A0C9DA1F1F627C006025B1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				15A0C9DB1F1F6287006025B1 /* AddActivityView */,
+				15A0C9CE1F1F6242006025B1 /* ATAMainViewController.h */,
+				15A0C9D11F1F6255006025B1 /* ATAMainViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		15A0C9DB1F1F6287006025B1 /* AddActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				15A0C9DE1F1F6664006025B1 /* ATAAddActivityView.h */,
+				15A0C9DF1F1F6664006025B1 /* ATAAddActivityView.m */,
+				15A0C9E11F1F667F006025B1 /* ATAAddActivityView.xib */,
+			);
+			name = AddActivityView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +237,7 @@
 			files = (
 				15A0C9AE1F1F34AA006025B1 /* LaunchScreen.storyboard in Resources */,
 				15A0C9AB1F1F34AA006025B1 /* Assets.xcassets in Resources */,
+				15A0C9E21F1F667F006025B1 /* ATAAddActivityView.xib in Resources */,
 				15A0C9A61F1F34AA006025B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,10 +256,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15A0C9A31F1F34AA006025B1 /* ATAViewController.m in Sources */,
+				15A0C9E01F1F6664006025B1 /* ATAAddActivityView.m in Sources */,
 				15A0C9A91F1F34AA006025B1 /* ActivityTracker.xcdatamodeld in Sources */,
+				15A0C9D61F1F6255006025B1 /* ATAMainViewController.m in Sources */,
 				15A0C9A01F1F34AA006025B1 /* ATAAppDelegate.m in Sources */,
 				15A0C99D1F1F34AA006025B1 /* main.m in Sources */,
+				15A0C9D51F1F6255006025B1 /* ATAActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15A0C9C71F1F4466006025B1 /* ATAMainViewControllerTests.m in Sources */,
 				15A0C9B91F1F34AA006025B1 /* ActivityTrackerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +461,7 @@
 				15A0C9BF1F1F34AA006025B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15A0C9C01F1F34AA006025B1 /* Build configuration list for PBXNativeTarget "ActivityTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +470,7 @@
 				15A0C9C21F1F34AA006025B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

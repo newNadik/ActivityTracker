@@ -7,33 +7,42 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "ATAActivity.h"
 
 @interface ActivityTrackerTests : XCTestCase
 
 @end
 
-@implementation ActivityTrackerTests
+@implementation ActivityTrackerTests{
+    ATAActivity *activity;
+}
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+}
+
+- (void)testActivityClassExists {
+    activity = [[ATAActivity alloc]init];
+    XCTAssertNotNil(activity, @"ATAActivity class exists");
+}
+
+- (void)testActivityClassHasDefaultName {
+    activity = [[ATAActivity alloc]init];
+    XCTAssertEqualObjects([activity getName], @"Activity", @"ATAActivity has default name = Activity");
+}
+
+- (void)testActivityInitWithName {
+    activity = [[ATAActivity alloc]initWithName:@"Name"];
+    XCTAssertNotNil(activity, @"ATAActivity class exists");
+    XCTAssertNotNil([activity getName], @"ATAActivity class has property name");
+    XCTAssertEqualObjects([activity getName], @"Name", @"ATAActivity class has property name = Name");
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    activity = nil;
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
 
 @end
